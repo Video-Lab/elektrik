@@ -70,3 +70,7 @@ body {
 	color: black;
 	text-transform: uppercase;
 }
+
+.dropdown-container {
+	display: none;
+}
