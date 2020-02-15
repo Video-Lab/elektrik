@@ -7,7 +7,7 @@ body {
 	width: 100%;
 	height: 10vh;
 	min-height: 8vh;
-	background: #1f8bff;
+	background: #ade2ff;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -24,7 +24,7 @@ body {
 
 .title-link {
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 	font-size: 8vh;
@@ -36,5 +36,20 @@ body {
 .title-link:hover {
 	text-decoration:none;
 	color: white;
+	margin: auto;
+}
+
+.dropdown {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #cfeeff;
+}
+
+.menu-item {
+	height: 10vh;
+	display: flex;
+}
+.menu-item-link {
 	margin: auto;
 }
