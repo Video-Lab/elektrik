@@ -72,14 +72,22 @@ body {
 
 .dropdown-container {
 	display: none;
-	z-index: 1;
 	position: absolute;
 	width: 100%;
 }
 
-.hero {
+.home-section {
 	margin: 0;
 	width: 100%;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.home-title {
+	color: white;
+	font-weight: 700;
+}
+
+.hero {
 	height: 80vh;
 	background: url("../imgs/hero-image.jpg");
 	background-size: cover;
@@ -87,10 +95,32 @@ body {
 }
 
 .hero-title {
-	font-family: "Noto Sans", sans-serif;
-	color: white;
 	text-align: center;
 	padding-top: 30vh;
-	font-weight: 700;
 	font-size: 7em;
 }
+
+.car-carousel-content {
+	padding-top: 17vh;
+	text-align: center;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.car-carousel {
+	background-image: url("../imgs/car-carousel-1.jpg");
+	height: 45vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.car-carousel-title {
+	text-align: center;
+	font-size: 4em;
+}
+
+.view-cars-btn {
+	margin-top: 3vh;
+	font-size: 2em;
+}
+
