@@ -119,6 +119,7 @@ body {
 .car-carousel-title {
 	text-align: center;
 	font-size: 4em;
+	padding: 0 3vh;
 }
 
 .view-cars-btn {
@@ -138,7 +139,6 @@ body {
 .company-vision-content {
 	padding: 4vh;
 	flex-basis: 50%;
-	margin: auto;
 }
 
 .company-vision-title {
