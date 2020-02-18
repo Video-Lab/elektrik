@@ -207,3 +207,22 @@ body {
 	font-size: 1.5vh;
 	color: white;
 }
+
+.page-title {
+	text-align: center;
+	font-size: 6em;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	padding-top: 4vh;
+	font-weight: 300;
+}
+
+.page-section {
+	padding: 5vh 0;
+	text-align: center;
+}
+
+.page-text {
+	width: 70%;
+	margin: 0 auto 0 auto;
+}
