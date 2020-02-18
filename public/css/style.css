@@ -328,3 +328,30 @@ body {
 	background-position: center;
 	box-shadow:inset 0 0 0 2000px rgba(0,0,0, 0.6);
 }
+
+.contact-us-form {
+	margin: 12vh 4vh;
+	
+}
+
+.form-control {
+	font-size:2vh;
+}
+
+.contact-us-row {
+	margin: 2vh;
+}
+
+.contact-us-submit {
+	margin-top: 2vh;
+	margin-left: 4vh;
+	font-size: 2em;
+}
+
+.contact-us-submitted {
+	font-size: 2vh;
+	text-align: center;
+	margin: 3vh auto;
+	display: none;
+}
+
